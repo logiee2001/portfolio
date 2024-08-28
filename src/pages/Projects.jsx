@@ -6,6 +6,7 @@ import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
 import kickstart from "../assets/projects/kickstart.png";
+import projectlogiee from '../assets/projectlogie.png';
 
 const Projects = () => {
   return (
@@ -61,11 +62,11 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pg}
+              imgPath={projectlogiee}
               isBlog={false}
-              title="Simple React Js application "
-              description="An application to which enables you to find the service that you desire for based on your location."
-              ghLink=""
+              title="Simple Book Register using React Js"
+              description="An application to which enables you to add a book in Library."
+              ghLink="https://logiee-libaapp.vercel.app/"
             />
           </Col>
         </Row>
